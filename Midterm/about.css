@@ -1,0 +1,130 @@
+
+*{
+  box-sizing: border-box;
+}
+
+
+
+body {
+    background-color:black!important;
+    margin: auto; 
+    padding: auto;
+}
+
+
+span {
+   font-family: 'Josefin Sans', sans-serif;
+    color: white;
+
+}
+
+#about-header { 
+    --weight: 40;
+  font-family: 'Josefin Sans', sans-serif;;
+  font-size: 6.7rem;
+  font-weight: bold;
+  line-height: 0.8;
+  margin: auto;
+  padding:auto;
+  padding-right:444px; 
+  text-align:right;
+  color:skyblue;
+  word-wrap: normal;
+
+}
+
+#about-header > * {
+  color: skyblue; 
+  font-variation-settings: 'wght' var(--weight);
+}
+
+#about-h2 {
+    font-size: 60px;
+    text-align: right;
+    color:skyblue; 
+    font-family: 'Josefin Sans', sans-serif; 
+    word-wrap:normal;
+    padding:50px; 
+    padding-right:120px; 
+    margin:auto; 
+    font-weight:bold; 
+}
+
+.header-img {
+  z-index: -9;	
+	position:fixed;
+	top: 0; 
+	right: 75%; 
+	bottom: 0; 
+	left:0; 
+	background-image: url(DSC01832.png);
+	background-repeat: no-repeat; 
+	-webkit-background-size: contain;
+	-moz-background-size: contain;
+	-o-background-size: contain;
+	 background-size: cover;
+}
+
+p {
+    float:right;
+    text-align:center; 
+    color: white; 
+    font-size: 25px;  
+    font-weight:bold; 
+    font-family: 'Josefin Sans', sans-serif;
+    margin:50px; 
+    padding:50px;
+   
+    
+}
+
+
+.navbar-nav {
+  background-color:black!important;
+  color:white!important; 
+  font-weight:bold!important; 
+  
+  
+}
+
+.navbar-btn {
+
+  background-color: black!important;
+  color:white!important; 
+  font-weight:bold!important; 
+
+}
+.navbar-inverse {
+  background-color: black!important;
+  
+}
+@media only screen and (max-width: 950px) {
+  .header-img{
+    background-color: black;
+    display:none;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  #about-header{
+   display:none; 
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  #about-h2{
+    font-size:35px;
+    text-align:center; 
+    padding:auto; 
+    padding-left:100px; 
+  }
+
+}
+
+
+@media only screen and (max-width: 720px) {
+  .navbar-nav{
+   align-items: right;
+  }
+
+}
